@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<configuration>
+  <appSettings>
+    <!--用户配置相关信息-->
+    <add key="UserId" value="host"/>
+    <add key="PassWord" value="123456"/>
+    
+    <!--网络配置相关信息-->
+    <add key="ConnectString" value="Http://www.baidu.com"/>
+    <add key="ConnectPort" value="1409"/>
+    
+    <!--默认加载用户-->
+    <add key="LoadUser" value="true"/>
+    
+    <!--允许用户注册-->
+    <add key="AllowUserReg" value="true"/>
+    
+    <!--启用分级用户管理权限设置-->
+    <add key="UserPermission" value="false"/>
+    
+    <!--启用逐级授权-->
+    <add key="UseLicensed" value="true"/>   
+  </appSettings>
+</configuration>
